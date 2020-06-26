@@ -3,8 +3,6 @@ import { render } from 'react-dom';
 import App from './App';
 
 render(
-  <React.StrictMode>
-    <App className="container" />
-  </React.StrictMode>,
+  <App />,
   document.getElementById('root')
 );
